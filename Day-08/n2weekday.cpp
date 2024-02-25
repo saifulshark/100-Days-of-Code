@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter a Number(1 to 7) to show up weekdays!: ";
+    cin>>n;
+    if(n==1)
+        cout<<"Monday";
+    else if(n==2)
+        cout<<"Tuesday";
+    else if(n==3)
+    cout<<"Wednesday";
+    else if(n==4)
+    cout<<"Thursday";
+    else if(n==5)
+    cout<<"Friday";
+    else if(n==6||n==7)
+    cout<<"It's weekend:Sat or SunDay!";
+    else
+    cout<<"You Entered a invalid week  number.";
+    return 0;
+}
